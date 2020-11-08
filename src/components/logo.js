@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Logo extends Component {
     render() {
         const size = {
-            height: this.props.size ? this.props.size : 105,
-            width: this.props.size ? this.props.size : 125
+            height: this.props.size ? this.props.size : 90,
+            width: this.props.size ? this.props.size : 105
         }
         return (
             <div className="logo-main">
