@@ -5,7 +5,7 @@ class ResultsPosts extends Component {
   render() {
     return(
       <div className='results-posts'>
-        <div classNam='results-posts__wrapper'>
+        <div className='results-posts__wrapper'>
           <div className='results-posts__posts'>
             Results go here!
           </div>
