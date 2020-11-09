@@ -1,3 +1,6 @@
+$color-gray-one: #666666;
+$color-gray-two:  #b3b3b3;
+
 .post-topic {
     margin: 0 4px; 
 }
@@ -19,3 +22,7 @@ body {
     justify-items: center;
     // grid-template-rows: 1fr 2fr 1fr;
 }
+
+
+@import './searchBar';
+
