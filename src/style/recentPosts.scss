@@ -14,8 +14,13 @@
   }
   &__posts {
     display: grid;
-    justify-content: space-evenly;
     grid-gap: 42px;
-    grid-template-columns: repeat(3,1fr);
+    @media screen and (min-width: 700px) {
+      grid-template-columns: repeat(3,1fr);
+    }
+
+
   }
 }
+
+
